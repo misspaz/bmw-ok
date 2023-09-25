@@ -1,0 +1,58 @@
+.modelos {
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .coches {
+    display: flex;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+
+      li {
+        padding-right: 15px;
+      }
+
+      span {
+        font-size: 20px;
+        color: #1c68d5;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.fotos-coches {
+    
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    row-gap: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+  img{
+    width: 250px;
+    object-fit: cover;
+    padding: 10px;
+  }
+
+  figcaption{
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+
+}
